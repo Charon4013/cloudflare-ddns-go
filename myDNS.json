@@ -1,0 +1,27 @@
+{
+    "api_email": "api_email",
+    "api_key": "api_key",
+    "zone_id": "zone_id",
+    "myDNSRecords": [
+        {
+            "name": "example1.example.com",
+            "type": "A",
+            "content": "8.8.8.8",
+            "proxied": false,
+            "ttl": 1
+        },
+        {
+            "name": "example2.example.com",
+            "type": "A",
+            "content": "ddns",
+            "proxied": false
+        },
+        {
+            "name": "example3.example.com",
+            "type": "AAAA",
+            "content": "ddns",
+            "proxied": true,
+            "ttl": 1
+        }
+    ]
+}
