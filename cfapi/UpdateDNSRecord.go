@@ -47,6 +47,6 @@ func UpdateDNSRecord(localFileSettingsAuthentification model.AuthenticationStruc
 	if err != nil || !resBody["success"].(bool) {
 		logger.Error("Update Record failed!", " Marshal error", err, "Response error: ", resBody["errors"])
 	} else {
-		logger.Error("Update Record success!", "localFileSettingsItemDNSRecord", localFileSettingsItemDNSRecord)
+		logger.Info("Update Record success!", "localFileSettingsItemDNSRecord", localFileSettingsItemDNSRecord)
 	}
 }

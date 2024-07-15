@@ -8,7 +8,6 @@ import (
 func main() {
 
 	util.InitLogger()
-	defer util.CloseLogger()
 
 	logger := util.GetLogger()
 
